@@ -1,0 +1,18 @@
+<configuration>
+	<contextListener class="ch.qos.logback.classic.jul.LevelChangePropagator">
+		<resetJUL>true</resetJUL>
+	</contextListener>
+
+	<jmxConfigurator />
+
+	<include resource="org/springframework/boot/logging/logback/base.xml" />
+
+	<logger name="io.youngkoss.app" level="DEBUG" />
+	<logger name="org.ehcache.jsr107" level="OFF" />
+
+
+	<!-- Setting the root level of logging to INFO -->
+	<root level="INFO">
+		<appender-ref ref="CONSOLE" />
+	</root>
+</configuration>
