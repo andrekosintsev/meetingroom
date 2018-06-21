@@ -7,7 +7,7 @@ To build an application just invoke build.sh
 
 #Run application
 
-To run this application more then enough just to invoke run.sh script file.
+To run this application just to invoke run.sh script file.
 
 
 #NOTE
